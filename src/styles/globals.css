@@ -19,6 +19,10 @@
   width: 244px;
 }
 
+.footer {
+  width: 297px;
+}
+
 .main-content {
   display: flex;
   flex-direction: row;
@@ -26,7 +30,53 @@
   justify-content: center;
 }
 
+nav span {
+  font-size: 16px;
+}
+
+nav {
+  margin-left: -10px;
+}
+
+nav a {
+  width: 220px;
+  height: 48px;
+  padding-left: 12px;
+}
+
+.menu-hover:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
 .Feed-container {
   max-width: 630px;
   width: 100%;
+  margin-left: 40px;
+}
+
+.sidebar {
+  padding-left: 64px;
+}
+
+.logo-IG {
+  width: 100%;
+  height: 92px;
+}
+
+.moreMenu {
+  width: 260px;
+  height: 408.5px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.moreMenu span {
+  font-size: 14px;
+}
+
+.moreMenu li {
+  padding-left: 12px;
 }
